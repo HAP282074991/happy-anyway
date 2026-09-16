@@ -1,0 +1,8 @@
+<view class="page">
+  <view class="card">
+    <text class="title">{{title}}</text>
+    <text class="description">从这里开始，逐步迁移你的功能。</text>
+    <button bindtap="checkBackend" loading="{{loading}}" disabled="{{loading}}">检查后端连接</button>
+    <text class="status">{{status}}</text>
+  </view>
+</view>

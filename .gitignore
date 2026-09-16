@@ -1,0 +1,11 @@
+node_modules/
+target/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+happyAnyway-wechat/project.private.config.json
+happyAnyway-wechat/miniprogram/**/*.js
+happyAnyway-wechat/miniprogram/**/*.js.map
