@@ -1,0 +1,276 @@
+{
+  "task": "B1-A",
+  "date": "2026-09-16",
+  "baseline": "26cb951a7632bf0c35b876ea902fd8eef6c86122",
+  "worktree": "C:\\Users\\Administrator\\.codex\\worktrees\\eadd\\happyAnyway-clean\\happyAnyway-api",
+  "contractSha256": "AD4C93F5A5B6008044E939D24BE24D33D0511C90C6DCCADF883D9B3B5FA91070",
+  "scope": "Complete main source/resource snapshot plus B1-A tests/scripts/docs; includes unchanged main files; excludes secrets and snapshot itself",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "3E5114E69B20F1FE718C886266776A6F01365D6B4C1C32DB89F227A6AFFD164A"
+    },
+    {
+      "path": "docs/reports/b1-a.md",
+      "sha256": "CD652EB506B4D176CB82492C4BC0318A251BEF99CBF434CB6670A4BD9449B993"
+    },
+    {
+      "path": "pom.xml",
+      "sha256": "CEDF4729058A27651BD609A2F42D6094BB1850589644036F264596E0929F9499"
+    },
+    {
+      "path": "README.md",
+      "sha256": "E628050C8A209B9A289BFDDC7286CCABF2773262A57BEDEBD6260B672F9041F4"
+    },
+    {
+      "path": "scripts/bootstrap-admin.ps1",
+      "sha256": "9ED09E7996897D475953C5770DB4261C773C9010EF2B40D47861C28E8D47CB0E"
+    },
+    {
+      "path": "scripts/start-admin-integration.ps1",
+      "sha256": "67D6B8A2198A6C56599838C07FAC2FDAC3AAFC074770C4B69B67A01EB4C9210D"
+    },
+    {
+      "path": "scripts/test-admin-session.ps1",
+      "sha256": "190B064B2BEA35DF01AD458739F30BBF86F3EE7ADBBF5595B492C572A7E38CFA"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/Application.java",
+      "sha256": "DAB136BBC567F5AA2C359F68CF5B66932B62B78D6650BCB4E5F125B9D64C25B0"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/ApiError.java",
+      "sha256": "1286847DF108AC2E9C71A855C7BC68EC6BC14B49718A1DD48B9ADDF7433BCC60"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/ContractText.java",
+      "sha256": "2B3E1159534A3A1924DAB971E12ED3BB8E64534B1C48FCAFF0F5CB754BD84F8A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/FieldError.java",
+      "sha256": "CBFD8BC09198C3CF78DCCD2228E1DD9492F0FC437FE5454EAE04DE28FB85409A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/RequestIdFilter.java",
+      "sha256": "C38A284A2B696DE46D8005D2262BE887E121EE7831357798CFE98CECC77C2DA6"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/AdminAuthConfiguration.java",
+      "sha256": "AF9D9352D36BDC378B16DFD2C42879CF9FACCBB5F223ACFB66F42C5CB420FF5C"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/AdminAuthProperties.java",
+      "sha256": "2DD861F4F50F20CC88BB01599696A80D682FECF7D436C49916488A9AA2E7E250"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/AdminIntegrationWebConfiguration.java",
+      "sha256": "A6EFA1AC34A7DA949EA76F4CCA879FC5B4AD8653D827081FBDB7E208BA18F9C5"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/OpenApiConfiguration.java",
+      "sha256": "5B5B0E6F63ADC431D142F72F53F9AB0D93C253D0991F116AA0DEB95C06D8C5C4"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/ProfileGuard.java",
+      "sha256": "F09516DA1C3730D5B4CE00968DC6FFC85A73DF7C91B3EDFF60218C5A65D35447"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/controller/adminauth/AdminAuthExceptionHandler.java",
+      "sha256": "FABDA86E07B85897C6A343007854183DEECF87F37B5B689A8A2A958A9C6F244A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/controller/adminauth/AdminSessionController.java",
+      "sha256": "3ADD45A5EE05EC900BFFA7298C19574973BE9C0ADB3FEA5D3C9C7D7AD28CD0C4"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/deployment/adminauth/AdminBootstrapConfiguration.java",
+      "sha256": "8A24F7E08D1A00EF354D70F98FB87E0E1261D19678685AF45837ECF12CC159DA"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/AdminIdentityResponse.java",
+      "sha256": "FD3C43300BA74196666047B98FC5BB53C8C262CA05674B9CF15D0182B1E3964A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/AdminLoginRequest.java",
+      "sha256": "290506FD134E06C451D0A701FA83F69D5FC391D799CD2AB0B0272B223E402CD3"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/AdminSessionResponse.java",
+      "sha256": "097AD150242FCBF973025B9A58AF7B3B597FBE97CC9CFA88A6224ECC14B23A28"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/CsrfResponse.java",
+      "sha256": "7F09854D9F59CEFCEE4E53E8F59A68D482171972107B011246D4F0C4F2F0D092"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/adminauth/AdminAccountEntity.java",
+      "sha256": "FFB9AF7A3764846AAFA7CD309C740612EF5F83C17A6D866C37B4E2A3EF148AC1"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/adminauth/AdminSessionEntity.java",
+      "sha256": "D9561C9BCAB07D5434A5A85E5CC965A5E079894F0F625062A80FE137DDC5EAFB"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/adminauth/AdminAccountMapper.java",
+      "sha256": "4B790DC33476C668E27D8C86212291C07556093C59235DB1C3BA0DA42A37BCF3"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/adminauth/AdminLoginThrottleMapper.java",
+      "sha256": "AAB00C01CE7446F4FE03E5DF5E8FD55F98BFF9431ED47950915D1B6235171BA8"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/adminauth/AdminSessionMapper.java",
+      "sha256": "3E8C972CEC498504C372F1605CA3F29AE725F540550777A5E952D5D3E7BEC44E"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminAuthErrorWriter.java",
+      "sha256": "CD5B0EF7715D5DAD0A416179B3066F5F5B722568D4E92072B8862FFD74A55398"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminCsrfRequestHandler.java",
+      "sha256": "7A5A8CC18CC9165B49CD11BA0C9F03B678BF4B01E7D921A5661FA3AF8E6B4276"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminCsrfTokenRepository.java",
+      "sha256": "2DF8BAFFFAC7C46EB29A8618F7B52C8D6BA9AA76F57CC5C6F140C6D410FE72E5"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminOriginFilter.java",
+      "sha256": "A6BA6B8CE61746ED94493409A4A91DFB27E05ECC00478B13398374CD0781848E"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminRequestShapeFilter.java",
+      "sha256": "ABBD72C0F63226B45CD61B59F2D06D4EAC6D5CEAB70BA34088B7A17D8F947AB7"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminSessionAuthenticationFilter.java",
+      "sha256": "E9C0CD0E5FCC3F5FE46189265368626910DC7D2FA735B8076AE30506CA4A3B35"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminSessionCookies.java",
+      "sha256": "6726B2B9DB73590B645A4AFC56F1C51A7B7F52247370A4C2390908495620F258"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/SecurityConfiguration.java",
+      "sha256": "4CBF08C9B22090859803EC389E0DD7A2AB3CFE077C4334961017C99ADBE1845D"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminAccountProvisioningService.java",
+      "sha256": "46935290504D3BE52CEE3D029A64E2F254A650D2B5DB3F2C1CF3C2C9139245E6"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminAuthException.java",
+      "sha256": "86E919B12A83A2F5095E6B2B9DB872AC6D785DBB886A48C50E71995B87D5E2DA"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminCsrfService.java",
+      "sha256": "8CA36A06893FB5B7322E35A389A6E3BF7F245566F7C0E881F370077AB6364FD6"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminSessionGrant.java",
+      "sha256": "3EFDF1EA391310B7303C1714414B6E7014ACD18BD65B66CB22D37FD7E744B182"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminSessionService.java",
+      "sha256": "A5F7B4BC7AA1FE405478001A13DFBD1F893D0EC67E8363D49EE082A4D51E391B"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminSessionState.java",
+      "sha256": "76B9F96A8A02B46CF790EFC4AA906C7725EF510A0209F12541F374E4B5CBAB2C"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/impl/AdminAccountProvisioningServiceImpl.java",
+      "sha256": "150267203B8A32777F1222FB54CAB9CB32583F8A85E54F9885549F65B8F69FEC"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/impl/AdminCsrfServiceImpl.java",
+      "sha256": "3C0AA06F35BF62308DF144083805F7A7998F118D45AFC03D66A47F5185280A44"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/impl/AdminSessionServiceImpl.java",
+      "sha256": "105CD3BA33C92F3B7304841932DE357070FB601EF02C4813E6F95DE3F008A84F"
+    },
+    {
+      "path": "src/main/resources/application-admin-integration.yml",
+      "sha256": "25C8A52614BA9E09602039172BC041EC741B6EB3FAD81E0B294C8E98569A0D55"
+    },
+    {
+      "path": "src/main/resources/application-local.yml",
+      "sha256": "CE874EF49B1ADC681F8A50747C9B73800C4DE80667F9282653919357AB19FE60"
+    },
+    {
+      "path": "src/main/resources/application-mysql.yml",
+      "sha256": "0502D4D16E697463325BF98F04A81F2528C8A971DBD76D1D5381E0C5D607640F"
+    },
+    {
+      "path": "src/main/resources/application.yml",
+      "sha256": "86A14C2E9D2A084E9A5FC3C64D92FA6CAA7DA487C7301FD6DF338C1C1BE6D6A9"
+    },
+    {
+      "path": "src/main/resources/db/migration/.gitkeep",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "src/main/resources/db/migration/V1__admin_session.sql",
+      "sha256": "715D9643BF81C41C4419E066EE433D0EAE03E8DBE8BF01C2783C8682C20075D9"
+    },
+    {
+      "path": "src/main/resources/mapper/.gitkeep",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "src/main/resources/mapper/adminauth/AdminAccountMapper.xml",
+      "sha256": "E97E94990C8BB58E164C9C9BBE31EFCAD1325C198AA76FE94C4E39DF0D2A1F83"
+    },
+    {
+      "path": "src/main/resources/mapper/adminauth/AdminLoginThrottleMapper.xml",
+      "sha256": "9DC7A260AB25BFF7FE73645B798B4C7FBC31C605A95A53EE51666C60AC3CF3D7"
+    },
+    {
+      "path": "src/main/resources/mapper/adminauth/AdminSessionMapper.xml",
+      "sha256": "8C7066C2CB4810A4ED2E747FC1C9977A561CA2E39DFC0D7004C556466FDD2B62"
+    },
+    {
+      "path": "src/main/resources/META-INF/spring.factories",
+      "sha256": "2593CEE741334DB1D13001C3123A38EDD39C1EAB0D5396BDD86C9DCEFF081AF3"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/adminauth/AdminCsrfLifecycleTest.java",
+      "sha256": "C44840A6218EFD34A9ED3945BA5D5409646B9513202E1F2C2362026136E4F5D7"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/adminauth/AdminSessionHttpTest.java",
+      "sha256": "0AB7643CDAB96469C96409E4603F4934C8696869542173A5C332ADB37A5E7FA4"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/adminauth/AdminSessionMysqlIT.java",
+      "sha256": "4253A2E6AFF7D8F69179097022354E2B5E4EE88197197520D12DC54B6FB089D3"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "target/b1a-verify.log",
+      "sha256": "359D19B9CB2B69B14FE4031B0A651C3975792AE9D83883223C7B2894B096E7C1"
+    },
+    {
+      "path": "target/b1a-evidence-Test/TEST-com.example.happyanyway.adminauth.AdminSessionMysqlIT.xml",
+      "sha256": "094E17D612FB8584F133587503EEF149352C20E9B76DDE3404D842EB76EA88B4"
+    },
+    {
+      "path": "target/b1a-https-final.log",
+      "sha256": "F7499E5ABD2A9E44B2B7A7C77D76415BFD78219F863127074D25B34F3D310087"
+    },
+    {
+      "path": "target/b1a-restart-result.txt",
+      "sha256": "DA149F5C0B5737448CD7D92334BB94F597025AB57326E8EF8D3B874E14406FF1"
+    },
+    {
+      "path": "target/b1a-final-state.txt",
+      "sha256": "99C71849FA3A7F3AA9497FBB9029798FC960F49BC5D040C36D866AB672E1C093"
+    },
+    {
+      "path": "target/happyanyway-api-0.1.0-SNAPSHOT.jar",
+      "sha256": "874825AB02AC68FD69E7F1B47126E6FFA70861E39155257C8C288F147043D8B6"
+    }
+  ]
+}

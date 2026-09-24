@@ -1,0 +1,491 @@
+{
+  "priorB2SnapshotSha256": "AABCB79F326FB2FC1BEAD831ECE90B61B41938AF5E886C149B77C6453B855142",
+  "scope": "All main/test sources and resources, all scripts, relevant docs, final JAR and current R2 evidence; excludes credentials and snapshot itself",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "sha256": "3E5114E69B20F1FE718C886266776A6F01365D6B4C1C32DB89F227A6AFFD164A"
+    },
+    {
+      "path": "docs/contracts/phase1.md",
+      "sha256": "AD4C93F5A5B6008044E939D24BE24D33D0511C90C6DCCADF883D9B3B5FA91070"
+    },
+    {
+      "path": "docs/reports/b1-a-snapshot.json",
+      "sha256": "BB6284EFEA36C776EFB67B5B21BAC8E480164C31074C0B97E6A9DC0B5271946F"
+    },
+    {
+      "path": "docs/reports/b1-a.md",
+      "sha256": "B966279F74ADFB6226A4DF41DDF4FDF3DB83AA346C375B244066D57546D085D5"
+    },
+    {
+      "path": "docs/reports/b2-a.md",
+      "sha256": "80C4165122F0BF06D5D7CB50203FDF71FC13821A1865B1ACB995A75ABF94C258"
+    },
+    {
+      "path": "pom.xml",
+      "sha256": "CEDF4729058A27651BD609A2F42D6094BB1850589644036F264596E0929F9499"
+    },
+    {
+      "path": "README.md",
+      "sha256": "23E0A50CAEFAFA7C7F71E6AF55762D977B5D34A3D88104417316A43628FED4A6"
+    },
+    {
+      "path": "scripts/bootstrap-admin.ps1",
+      "sha256": "9ED09E7996897D475953C5770DB4261C773C9010EF2B40D47861C28E8D47CB0E"
+    },
+    {
+      "path": "scripts/start-admin-integration.ps1",
+      "sha256": "67D6B8A2198A6C56599838C07FAC2FDAC3AAFC074770C4B69B67A01EB4C9210D"
+    },
+    {
+      "path": "scripts/start-local-mysql.ps1",
+      "sha256": "4EF55822CD4229A5D68FE43B774EE6FAAA993428827190E0C3CE71D7311D5527"
+    },
+    {
+      "path": "scripts/start-public-content.ps1",
+      "sha256": "A1CC0BF22A34044153A46F0FC7991E56C606F46801388A7C9F7E7CC4A1FE19AA"
+    },
+    {
+      "path": "scripts/test-admin-session.ps1",
+      "sha256": "190B064B2BEA35DF01AD458739F30BBF86F3EE7ADBBF5595B492C572A7E38CFA"
+    },
+    {
+      "path": "scripts/test-mysql-migration.ps1",
+      "sha256": "731FA5772E8B5838ECCD0A98C8810908917C57DA6AE966E9FB398E61B29002C5"
+    },
+    {
+      "path": "scripts/test-public-content.ps1",
+      "sha256": "E183D04A8F7B0A1772B0E18E9E30302B05A688C28BB1FD42F0259365230418B0"
+    },
+    {
+      "path": "scripts/test-public-startup-safety.ps1",
+      "sha256": "47D1FFC66481058BDC9BBA2D06EDDF3C24F358A3EFDF0D3283D362B5E79F0E72"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/Application.java",
+      "sha256": "DAB136BBC567F5AA2C359F68CF5B66932B62B78D6650BCB4E5F125B9D64C25B0"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/ApiError.java",
+      "sha256": "1286847DF108AC2E9C71A855C7BC68EC6BC14B49718A1DD48B9ADDF7433BCC60"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/ContractText.java",
+      "sha256": "2B3E1159534A3A1924DAB971E12ED3BB8E64534B1C48FCAFF0F5CB754BD84F8A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/FieldError.java",
+      "sha256": "CBFD8BC09198C3CF78DCCD2228E1DD9492F0FC437FE5454EAE04DE28FB85409A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/RequestIdFilter.java",
+      "sha256": "C38A284A2B696DE46D8005D2262BE887E121EE7831357798CFE98CECC77C2DA6"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/common/SafeErrorLog.java",
+      "sha256": "3FE19B136D0099682DD92A5ABB2C7594D1FAF22665DF14F9650D091E19C43F06"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/AdminAuthConfiguration.java",
+      "sha256": "AF9D9352D36BDC378B16DFD2C42879CF9FACCBB5F223ACFB66F42C5CB420FF5C"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/AdminAuthProperties.java",
+      "sha256": "2DD861F4F50F20CC88BB01599696A80D682FECF7D436C49916488A9AA2E7E250"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/AdminIntegrationWebConfiguration.java",
+      "sha256": "A6EFA1AC34A7DA949EA76F4CCA879FC5B4AD8653D827081FBDB7E208BA18F9C5"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/OpenApiConfiguration.java",
+      "sha256": "5B5B0E6F63ADC431D142F72F53F9AB0D93C253D0991F116AA0DEB95C06D8C5C4"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/ProfileGuard.java",
+      "sha256": "F09516DA1C3730D5B4CE00968DC6FFC85A73DF7C91B3EDFF60218C5A65D35447"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/config/PublicContentConfiguration.java",
+      "sha256": "AF0D4548F0AAB2FA037B85AFD2B86DDF16D915A70A96B92739C8BFB5F48C02AD"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/controller/adminauth/AdminAuthExceptionHandler.java",
+      "sha256": "C501F0CC830B07325B4D25BD3BB97F95BD345B43C511A1DF0176676A8F585821"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/controller/adminauth/AdminSessionController.java",
+      "sha256": "3ADD45A5EE05EC900BFFA7298C19574973BE9C0ADB3FEA5D3C9C7D7AD28CD0C4"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/controller/publiccontent/PublicContentController.java",
+      "sha256": "156A90E372C746E354CD0D463C0BA8FDDBEA337A9B4889420F8DF321E382D7C1"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/controller/publiccontent/PublicContentExceptionHandler.java",
+      "sha256": "DC1D13095C95DEF29E921356A9109E8C61253A9B95215B6FC978F24526F609C5"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/deployment/adminauth/AdminBootstrapConfiguration.java",
+      "sha256": "8A24F7E08D1A00EF354D70F98FB87E0E1261D19678685AF45837ECF12CC159DA"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/AdminIdentityResponse.java",
+      "sha256": "FD3C43300BA74196666047B98FC5BB53C8C262CA05674B9CF15D0182B1E3964A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/AdminLoginRequest.java",
+      "sha256": "290506FD134E06C451D0A701FA83F69D5FC391D799CD2AB0B0272B223E402CD3"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/AdminSessionResponse.java",
+      "sha256": "097AD150242FCBF973025B9A58AF7B3B597FBE97CC9CFA88A6224ECC14B23A28"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/adminauth/CsrfResponse.java",
+      "sha256": "7F09854D9F59CEFCEE4E53E8F59A68D482171972107B011246D4F0C4F2F0D092"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/dto/publiccontent/PublicModels.java",
+      "sha256": "0ABDD5FC969776C41AFC0070C5145CD6402B82CD36CF2E71136831FDE0D98D7E"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/adminauth/AdminAccountEntity.java",
+      "sha256": "FFB9AF7A3764846AAFA7CD309C740612EF5F83C17A6D866C37B4E2A3EF148AC1"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/adminauth/AdminSessionEntity.java",
+      "sha256": "D9561C9BCAB07D5434A5A85E5CC965A5E079894F0F625062A80FE137DDC5EAFB"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/publiccontent/PublicCategoryEntity.java",
+      "sha256": "2314355678D2B49C81ACF9AD8A1BA395D571A4BDC46C1B62A43AABD9B138E4DC"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/publiccontent/PublicImageEntity.java",
+      "sha256": "F134DFF50F17EA8626B54B144E1E610048BE48B0554AF88436635D84EB6636A0"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/publiccontent/PublicPostEntity.java",
+      "sha256": "DEBAC298EBA8509F9B30ECF5FCD7F04153026B15726B73C1D7F2B50C6919439F"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/publiccontent/PublicSnapshotControlEntity.java",
+      "sha256": "46AF1626CCBB6D6AA7204C332EFA9CF86C0CA443072955C984576160A42A06DB"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/entity/publiccontent/PublicSnapshotEntity.java",
+      "sha256": "EC1F88E880A483F825A138C5C8A8DB0E5D222CF724423B683CBFB9CF358AAE03"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/adminauth/AdminAccountMapper.java",
+      "sha256": "4B790DC33476C668E27D8C86212291C07556093C59235DB1C3BA0DA42A37BCF3"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/adminauth/AdminLoginThrottleMapper.java",
+      "sha256": "AAB00C01CE7446F4FE03E5DF5E8FD55F98BFF9431ED47950915D1B6235171BA8"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/adminauth/AdminSessionMapper.java",
+      "sha256": "3E8C972CEC498504C372F1605CA3F29AE725F540550777A5E952D5D3E7BEC44E"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/publiccontent/PublicContentMapper.java",
+      "sha256": "B621E331A1DC1C97C506D6CC1C53F4A572A696FB3023C21E174E52B9E527135B"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/mapper/publiccontent/PublicSnapshotMapper.java",
+      "sha256": "17B7211F391F3AD5FB3760CE2EF42E0FA579E9C11060B087A80CB5B47E56DB93"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminAuthErrorWriter.java",
+      "sha256": "CD5B0EF7715D5DAD0A416179B3066F5F5B722568D4E92072B8862FFD74A55398"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminCsrfRequestHandler.java",
+      "sha256": "7A5A8CC18CC9165B49CD11BA0C9F03B678BF4B01E7D921A5661FA3AF8E6B4276"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminCsrfTokenRepository.java",
+      "sha256": "2DF8BAFFFAC7C46EB29A8618F7B52C8D6BA9AA76F57CC5C6F140C6D410FE72E5"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminOriginFilter.java",
+      "sha256": "A6BA6B8CE61746ED94493409A4A91DFB27E05ECC00478B13398374CD0781848E"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminRequestShapeFilter.java",
+      "sha256": "ABBD72C0F63226B45CD61B59F2D06D4EAC6D5CEAB70BA34088B7A17D8F947AB7"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminSessionAuthenticationFilter.java",
+      "sha256": "CF4631BF8569F18EDE58534427F66DC2E0B3EA8A4F84D5C1A8D1DD4CC059B3E3"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/AdminSessionCookies.java",
+      "sha256": "6726B2B9DB73590B645A4AFC56F1C51A7B7F52247370A4C2390908495620F258"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/security/SecurityConfiguration.java",
+      "sha256": "3A08C52E2B1802387210E27FCFC5AC8AED12307524175C41B7ADD924342F29EA"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminAccountProvisioningService.java",
+      "sha256": "46935290504D3BE52CEE3D029A64E2F254A650D2B5DB3F2C1CF3C2C9139245E6"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminAuthException.java",
+      "sha256": "86E919B12A83A2F5095E6B2B9DB872AC6D785DBB886A48C50E71995B87D5E2DA"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminCsrfService.java",
+      "sha256": "8CA36A06893FB5B7322E35A389A6E3BF7F245566F7C0E881F370077AB6364FD6"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminSessionGrant.java",
+      "sha256": "3EFDF1EA391310B7303C1714414B6E7014ACD18BD65B66CB22D37FD7E744B182"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminSessionService.java",
+      "sha256": "A5F7B4BC7AA1FE405478001A13DFBD1F893D0EC67E8363D49EE082A4D51E391B"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/AdminSessionState.java",
+      "sha256": "76B9F96A8A02B46CF790EFC4AA906C7725EF510A0209F12541F374E4B5CBAB2C"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/impl/AdminAccountProvisioningServiceImpl.java",
+      "sha256": "150267203B8A32777F1222FB54CAB9CB32583F8A85E54F9885549F65B8F69FEC"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/impl/AdminCsrfServiceImpl.java",
+      "sha256": "3C0AA06F35BF62308DF144083805F7A7998F118D45AFC03D66A47F5185280A44"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/adminauth/impl/AdminSessionServiceImpl.java",
+      "sha256": "105CD3BA33C92F3B7304841932DE357070FB601EF02C4813E6F95DE3F008A84F"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/impl/ImageDecodeWorker.java",
+      "sha256": "E9AAB2D0FA51953771ABB2FE4D6322A56370584AC2AE6E6EB997579384AEC3AC"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/impl/MediaDecoder.java",
+      "sha256": "E491F0F2371B7E36F5B196383D8214225C16896D72FA7A2E492DEA1E43146FFD"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/impl/PrivateMediaServiceImpl.java",
+      "sha256": "ABD4FEEECE2F80F695820BC96137D7876FA6E56EBEF79E7973ACA7C5CB608871"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/impl/ProcessMediaDecoder.java",
+      "sha256": "46E783DDC736B46346D9221034C761A35B026F766232B24AE03117039CE5320C"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/impl/PublicContentServiceImpl.java",
+      "sha256": "8AFF3F10164F992F98AD678FEE568251633DBA8C88D70482BF8DA46309C569FE"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/impl/PublicCursorCodec.java",
+      "sha256": "526892E061565E40B1FADC346998288BFFE857FF6D82BD36BBC4D0DBAA8FFDD8"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/PrivateMediaService.java",
+      "sha256": "A194A47FEE1C4AA4C428D5E6A1FECC052CC539B13A3400A0FA0D791DF94EC56A"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/PublicContentException.java",
+      "sha256": "52DE65EA9EC66802931188D7EC3A10DE021B376E457D14A2C348D5E8F1CE62B0"
+    },
+    {
+      "path": "src/main/java/com/example/happyanyway/service/publiccontent/PublicContentService.java",
+      "sha256": "40E533FE1F3DE7FD081A45F67AB31A64B2E9DDBA22108A7455B507B60B4C6F07"
+    },
+    {
+      "path": "src/main/resources/application-admin-integration.yml",
+      "sha256": "25C8A52614BA9E09602039172BC041EC741B6EB3FAD81E0B294C8E98569A0D55"
+    },
+    {
+      "path": "src/main/resources/application-local.yml",
+      "sha256": "CE874EF49B1ADC681F8A50747C9B73800C4DE80667F9282653919357AB19FE60"
+    },
+    {
+      "path": "src/main/resources/application-mysql.yml",
+      "sha256": "0502D4D16E697463325BF98F04A81F2528C8A971DBD76D1D5381E0C5D607640F"
+    },
+    {
+      "path": "src/main/resources/application.yml",
+      "sha256": "86A14C2E9D2A084E9A5FC3C64D92FA6CAA7DA487C7301FD6DF338C1C1BE6D6A9"
+    },
+    {
+      "path": "src/main/resources/db/migration/.gitkeep",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "src/main/resources/db/migration/V1__admin_session.sql",
+      "sha256": "715D9643BF81C41C4419E066EE433D0EAE03E8DBE8BF01C2783C8682C20075D9"
+    },
+    {
+      "path": "src/main/resources/db/migration/V2__public_content.sql",
+      "sha256": "03E1647C4B04887B67806A6675114235A23765C4B5A43DAAF75FBFCF45DE83FF"
+    },
+    {
+      "path": "src/main/resources/mapper/.gitkeep",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "src/main/resources/mapper/adminauth/AdminAccountMapper.xml",
+      "sha256": "E97E94990C8BB58E164C9C9BBE31EFCAD1325C198AA76FE94C4E39DF0D2A1F83"
+    },
+    {
+      "path": "src/main/resources/mapper/adminauth/AdminLoginThrottleMapper.xml",
+      "sha256": "9DC7A260AB25BFF7FE73645B798B4C7FBC31C605A95A53EE51666C60AC3CF3D7"
+    },
+    {
+      "path": "src/main/resources/mapper/adminauth/AdminSessionMapper.xml",
+      "sha256": "8C7066C2CB4810A4ED2E747FC1C9977A561CA2E39DFC0D7004C556466FDD2B62"
+    },
+    {
+      "path": "src/main/resources/mapper/publiccontent/PublicContentMapper.xml",
+      "sha256": "A9B5D3FDB3770068D918D8CFAAF0CE5D36246A36E84E0FD28F0B50173B723256"
+    },
+    {
+      "path": "src/main/resources/mapper/publiccontent/PublicSnapshotMapper.xml",
+      "sha256": "6FA50C237862C168C5346661A5377695AAD043DBD5A5248F6757D878519841A7"
+    },
+    {
+      "path": "src/main/resources/META-INF/spring.factories",
+      "sha256": "2593CEE741334DB1D13001C3123A38EDD39C1EAB0D5396BDD86C9DCEFF081AF3"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/adminauth/AdminCsrfLifecycleTest.java",
+      "sha256": "C44840A6218EFD34A9ED3945BA5D5409646B9513202E1F2C2362026136E4F5D7"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/adminauth/AdminErrorLoggingTest.java",
+      "sha256": "633CDA75A405EBCE75E0A781B282D18410DDE9006F14496D95DBC047A6692CDF"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/adminauth/AdminSessionHttpTest.java",
+      "sha256": "0AB7643CDAB96469C96409E4603F4934C8696869542173A5C332ADB37A5E7FA4"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/adminauth/AdminSessionMysqlIT.java",
+      "sha256": "4253A2E6AFF7D8F69179097022354E2B5E4EE88197197520D12DC54B6FB089D3"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/ApplicationTest.java",
+      "sha256": "3CB36F0BF117EFB96397D0F4B65237A21FE403F0FC01DF42F513377819846B11"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/migration/MySqlMigrationCompatibilityTest.java",
+      "sha256": "36DEA7B16D2F3C9DB47C45C14221A2BCBA66899EC840E4EAFE18BABC893D5162"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/ProfileGuardTest.java",
+      "sha256": "DF9BA87272EB61CBC6DB77BCBC3C08D20E4C5B90C70A1EA84449B3E3B05B9CC7"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/publiccontent/MediaBudgetTest.java",
+      "sha256": "F473FC46D1F36FDED974AC860BE1D2037332ADD3F4B8490832E32661D1C2275D"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/publiccontent/PublicContentMysqlIT.java",
+      "sha256": "A2F2A0AC2E9CE2DA0BD40BBF2BAD0D5B793F39FCAFF03980651B503C4A270CAC"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/publiccontent/PublicFixtureGuard.java",
+      "sha256": "6B19BC376B1E9107F378181532BB54D3313EF06A9F87C7C33A5FABD30504B8FF"
+    },
+    {
+      "path": "src/test/java/com/example/happyanyway/publiccontent/PublicFixtureGuardTest.java",
+      "sha256": "9FA3BE118C0E38C165C42B2DFD9545A84B03D852075DDD0B0ED97DB198432CC0"
+    },
+    {
+      "path": "src/test/resources/db/migration-compat/fixtures/V3__probe_failure.sql",
+      "sha256": "86321D425FCB3566591ABD699CFEB5B0D1EC8C28BBF0BD043B0A6A7353F75147"
+    },
+    {
+      "path": "src/test/resources/db/migration-compat/fixtures/V3__probe_recovered.sql",
+      "sha256": "A47E2F8A6B8E9276D2D4E3D0F1EFCF5F2462ED1E5153B455AD16C12C3C3ED044"
+    },
+    {
+      "path": "src/test/resources/db/migration-compat/V1__probe_schema.sql",
+      "sha256": "D8DBA1E93D92D267911332207781B31120BCFF2907388EEA5F2B546EE605173D"
+    },
+    {
+      "path": "src/test/resources/db/migration-compat/V2__probe_index.sql",
+      "sha256": "0CD14FCB7DAA37EEBF270A4FCF44922B21FD63780C275681056667DBB1CC06FA"
+    },
+    {
+      "path": "src/test/resources/publiccontent/README.md",
+      "sha256": "FF419220A696BB7FF0C4B18EC37B1A60A1C2DEA6E408A4FCDE1CA1FABFCE70BA"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "target/happyanyway-api-0.1.0-SNAPSHOT.jar",
+      "sha256": "6C7513FD333F049D80FF6996CCD84D3AC9FBB269B5703908C9B250B62BEF4322"
+    },
+    {
+      "path": "target/b2a-baseline.log",
+      "sha256": "764D639BCAB26F6A53AEA44FE271E87DCC2FD3CB7C9A4508CB7F92FDF78A58D3"
+    },
+    {
+      "path": "target/b2a-mysql-Test.log",
+      "sha256": "9FCEF73973F211C9A8D7A2BB52414F97DC34A746EB2FDA83E11746ADF56FDCA9"
+    },
+    {
+      "path": "target/b2a-verify.log",
+      "sha256": "10E34107EBA5528A10880616E200822A3F1371E5B7057C8BAE786FC15F9A9063"
+    },
+    {
+      "path": "target/b2a-r2-unit.log",
+      "sha256": "EED65992AD04E12C71C5ECAC96236A9639708337D0F4D067972DA2C23817DD69"
+    },
+    {
+      "path": "target/b2a-r1-owned-cleanup.txt",
+      "sha256": "32617C8D49AF250820E1722FE015B89563386F0498D52D5954E038741E683A36"
+    },
+    {
+      "path": "target/b2a-r2-db-metadata.txt",
+      "sha256": "A0758B7FB48B04B69729163E68F49D65E0FE5C4371C901DB031FABB857DBC158"
+    },
+    {
+      "path": "target/b2a-r2-cleanup.json",
+      "sha256": "4DAA9D8A3CBB0767F37B6A1B6D1F60EC12BB7616C6485279F4FD52F8FA7E0BBE"
+    },
+    {
+      "path": "target/b2a-startup-safety-Test.json",
+      "sha256": "58073796AF9F65277E0EF39C58D4BF48C4847B0AFCF16748ACF9F2D670515441"
+    },
+    {
+      "path": "target/b2a-r2-image.png",
+      "sha256": "F4786BD3B6F50584AD37E3658BCC53C9389B57BC59BBEBD6658994D910B425F9"
+    },
+    {
+      "path": "target/b2a-evidence-Test/TEST-com.example.happyanyway.publiccontent.PublicContentMysqlIT.xml",
+      "sha256": "ADD77DFDFDA5CBB6C1961794946690C881D577CFFFBFCF9A4747E176A20EB040"
+    },
+    {
+      "path": "target/surefire-reports/TEST-com.example.happyanyway.publiccontent.MediaBudgetTest.xml",
+      "sha256": "54BF09C4CB12801A5CAA8B3F1944088C6B2A1D09474C34A8F5621A8AA9D95294"
+    },
+    {
+      "path": "target/surefire-reports/TEST-com.example.happyanyway.publiccontent.PublicFixtureGuardTest.xml",
+      "sha256": "4E26C83D087548CECC18A1A0E2460E80CFADB6F24BD3D2EB9AC2A30ECBF0A5A2"
+    }
+  ],
+  "baseline": "26cb951a7632bf0c35b876ea902fd8eef6c86122",
+  "changedPriorFiles": [
+    "README.md",
+    "src/main/java/com/example/happyanyway/common/SafeErrorLog.java",
+    "src/main/java/com/example/happyanyway/security/SecurityConfiguration.java"
+  ],
+  "worktree": "C:\\Users\\Administrator\\.codex\\worktrees\\eadd\\happyAnyway-clean\\happyAnyway-api",
+  "task": "B2-A R1 remediation for R2 review",
+  "contractSha256": "AD4C93F5A5B6008044E939D24BE24D33D0511C90C6DCCADF883D9B3B5FA91070",
+  "priorSnapshotSha256": "BB6284EFEA36C776EFB67B5B21BAC8E480164C31074C0B97E6A9DC0B5271946F",
+  "date": "2026-09-16"
+}

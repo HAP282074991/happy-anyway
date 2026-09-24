@@ -1,0 +1,162 @@
+{
+  "task": "W1-A",
+  "status": "DONE_WITH_CONCERNS",
+  "threadId": "01a0a947-96bc-7ee0-8892-7c25b955c015",
+  "head": "26cb951a7632bf0c35b876ea902fd8eef6c86122",
+  "branch": "detached HEAD",
+  "contractSha256": "AD4C93F5A5B6008044E939D24BE24D33D0511C90C6DCCADF883D9B3B5FA91070",
+  "nodeTests": {
+    "total": 30,
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0
+  },
+  "visualVerification": "Project imported; awaiting user trust; mini program not run",
+  "realBackend": "Not authorized for integration yet",
+  "files": [
+    {
+      "path": "happyAnyway-wechat/docs/contracts/phase1-public.md",
+      "sha256": "8ED9AD9ABEFF386CEA13570B402B331AAB0009FFA0AC87712D3D1D6B2F6F5848",
+      "bytes": 69669
+    },
+    {
+      "path": "happyAnyway-wechat/docs/reports/w1-a.md",
+      "sha256": "89BF52EB0270C9277F2331E79FED6295D26A7BF0CE45A7DDAF76EB79F11F4933",
+      "bytes": 10431
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/api/posts.ts",
+      "sha256": "E5B76478EB4036B91FD518D3BD6AB4CB8D62BF50FF8B6DA0402A732F14677C66",
+      "bytes": 1100
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/api/types.ts",
+      "sha256": "83B77AF34CBA0A66FB21649818B5B5BD2E9583DB5635B7A76F825D8AF11039C2",
+      "bytes": 5661
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/app.json",
+      "sha256": "A352296284BB9428BFB82412681E18935AAD19548C335FD914734753F8D9687E",
+      "bytes": 341
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/app.wxss",
+      "sha256": "6CEF73CAFD8DF93EE5916EF20F87B8917EFF880457DC0E7DE90E2EBA6C9C7F51",
+      "bytes": 1259
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/assets/default-avatar.svg",
+      "sha256": "BB7B439E082D08AEF29DC5E986270665581EEFD920B35F746D216F73EA1FA74A",
+      "bytes": 381
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/config.ts",
+      "sha256": "BE331049342485ED7BBA0F1C776780EC79B97CE3C2FDA929ACACCA9EAC4C26E4",
+      "bytes": 226
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/index/index.json",
+      "sha256": "A25F4347546AF4443D58A87ADDC550C266E884144E57DDC839242FA813067EEC",
+      "bytes": 124
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/index/index.ts",
+      "sha256": "60E5FDB9B453D909CA00F9007C89A6453D614FF5527EAE07CC59A072DA10464E",
+      "bytes": 1343
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/index/index.wxml",
+      "sha256": "DD521C6D30E96503A4BC64596E7995B6090EE46BCCB1D65E7E193F865BD38DD1",
+      "bytes": 2655
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/index/index.wxss",
+      "sha256": "5C65190A1213E936FF793CF8ED89713D6FE57E31EA62D9A4E226DEE00228D954",
+      "bytes": 1914
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/post-detail/index.json",
+      "sha256": "262B1C5DC3B537A00A9AC9DD0AF084880706B8E8EDAB94010AF9C772D2A5ED1F",
+      "bytes": 102
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/post-detail/index.ts",
+      "sha256": "B9F87A5F76A8E3F228DCB32F2BDE9CD284F209700B952117A03B1001258B62DB",
+      "bytes": 1308
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/post-detail/index.wxml",
+      "sha256": "BDFF27306A4202FAF88631AF3759804AC7CB5A11D6510F763450AEDAFBC53C14",
+      "bytes": 2112
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/pages/post-detail/index.wxss",
+      "sha256": "39BD9A198BAD0DBD3C8D24A05CB1A0199EFB5184906597A9965888499B28AC45",
+      "bytes": 1508
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/platform/media.ts",
+      "sha256": "92A1B8F8D6C0EA01474D589CE6B42D85081D7EE846AB308A7557366382522AB5",
+      "bytes": 3711
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/platform/request.ts",
+      "sha256": "AF5B3D87FAA4DA046749A5A284F1A2974EB407FB91C4DEB4FAC83E641E3352E2",
+      "bytes": 1960
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/services/posts.ts",
+      "sha256": "E1B66F85D231552A9F89703AF3E39CEFA8BD6AC041E41D0FFCB32D43C77B5603",
+      "bytes": 10032
+    },
+    {
+      "path": "happyAnyway-wechat/miniprogram/utils/money.ts",
+      "sha256": "F53994C39B1916438ADF3F4BE7392F4980BA6696384481B8486B7062F89FA86D",
+      "bytes": 303
+    },
+    {
+      "path": "happyAnyway-wechat/package.json",
+      "sha256": "80F4398DEAA13861CF9A70FED68DAE765441C96D6BB397BDFBEC7A8254EF69FD",
+      "bytes": 546
+    },
+    {
+      "path": "happyAnyway-wechat/README.md",
+      "sha256": "9A96A75959E45DE03E7F3F92234C160D460E06068978B1E29A86818712C93D10",
+      "bytes": 3601
+    },
+    {
+      "path": "happyAnyway-wechat/tests/fixtures.cjs",
+      "sha256": "F9C341D8510A474116256A7104EC78EAB47A4A8452266C5390B5BC39452CA777",
+      "bytes": 1281
+    },
+    {
+      "path": "happyAnyway-wechat/tests/pages.test.cjs",
+      "sha256": "6A6FE75B37CAF2AC88EB1D05E9681EAF3F7F2337DDC3A75F39A3F2D52F5E418C",
+      "bytes": 2898
+    },
+    {
+      "path": "happyAnyway-wechat/tests/public-browsing.test.cjs",
+      "sha256": "11A47C43DCE3F72D16D73C94E2AC6EA19DBE68B87E0CE961D02FE0FA8432FC2C",
+      "bytes": 10016
+    },
+    {
+      "path": "happyAnyway-wechat/tests/transport.test.cjs",
+      "sha256": "423A51907DF3A9635E416E660B60E7F581E16A302B5F35FC4552DC95801EC54B",
+      "bytes": 5300
+    }
+  ],
+  "preserved": [
+    {
+      "path": "happyAnyway-wechat/docs/reports/phase1-preflight.md",
+      "sha256": "A999CA7F965D842ED359F250D4DCD018BCD05F1B64659C0F16F02F5D7665C2FD"
+    },
+    {
+      "path": "happyAnyway-wechat/docs/reports/phase1-contract-feedback.md",
+      "sha256": "6C994760FC536A9E575CED54DB73AEDE438A223A45ED1AABAC8FB28AE9E33A45"
+    },
+    {
+      "path": "happyAnyway-wechat/docs/reports/phase1-contract-recheck.md",
+      "sha256": "188E0CD47185546C39201F77C1DBBAA72A39C1FF95AB90246BAD3EDC58F20D3A"
+    }
+  ]
+}

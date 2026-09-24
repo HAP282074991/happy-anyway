@@ -12,6 +12,7 @@
 |---|---|---|
 | 后端开发 | happyAnyway-api/agent.md | happyAnyway 后端开发 Agent |
 | 微信前端开发 | happyAnyway-wechat/agent.md | happyAnyway 微信前端 Agent |
+| 网页前端开发 | happyAnyway-admin/agent.md | happyAnyway 网页前端 Agent |
 | 独立测试 | tests/agent.md | happyAnyway 独立测试 Agent |
 
 根 Agent 已是项目经理，不另建项目经理或产品 Agent。审查由项目经理在第五步按[审查规则](rules/code-review.md)按需创建子 Agent，不属于持久化岗位初始化清单，也不作为缺岗报告。新增岗位先由用户确定配置，再加入清单。
@@ -61,4 +62,4 @@ docs/agent-roster.md 每个岗位保存：实际名称、实例类型、正式 I
 
 创建新任务后按应用要求提供任务入口；后续派工复用登记的同一 ID。初始化不自动生成业务任务，初始化完成的岗位保持等待派工。
 
-**完成条件：后端、微信前端、独立测试均有核实后的持久化实例及接手记录，或每个未完成岗位有明确阻塞原因；没有创建子 Agent。**
+**完成条件：后端、微信前端、网页前端、独立测试均有核实后的持久化实例及接手记录，或每个未完成岗位有明确阻塞原因；没有创建子 Agent。**
