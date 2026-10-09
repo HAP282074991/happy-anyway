@@ -1,5 +1,9 @@
 # 第七步：用户验收后合并分支
 
+记录载体按[项目记录规则](task-records.md)执行：本步骤的循环产出写入 docs/plans/当前任务记录.md 下对应任务范围；完成后提纯至 docs/plans/<任务名>.md 并清理过程材料。文中的计划、报告和结论均指当前任务记录的对应章节或岗位返回内容，不要求逐步骤新建人工文件；必要原始证据按需单独保存并引用。
+
+合并后按[路书维护规则](project-roadmap.md)核对总路书和工程路书与最终目录、入口及状态一致，保留尚未落地和未验证项的标记。
+
 参考 superpowers 的 verification-before-completion/SKILL.md 和 finishing-a-development-branch/SKILL.md，按本项目固定岗位和用户已确定的“验收通过后合并”流程调整。
 
 项目经理核对证据、组织用户验收并执行获准的 Git 合并操作，不修改业务代码。顺序为：核验交付 → 用户验收 → 本地合并 → 验证合并结果 → 交接归档。
@@ -52,7 +56,7 @@
 对实际合并提交重新运行本次交付所需的检查，由对应岗位提供结果：
 
 - 后端：在 happyAnyway-api/ 执行 mvn verify，以及交付功能要求的相关验证。
-- 小程序：在 happyAnyway-wechat/ 执行 npm run lint、npm run typecheck、npm run build；功能与联调按实际测试方案执行，不虚构 npm test。
+- App：在 happyAnyway-app/ 执行 npm run lint、npm run typecheck、npm test 及 README 中的双平台构建检查；原生构建、独立安装和设备联调分别验证。
 - 跨端交付：检查两端接口、配置和依赖组合，按影响执行独立回归；真实数据库或设备结果不能由构建通过推断。
 
 读取实际输出、退出码、测试数量与失败项，并记录验证对应的合并提交。失败时报告“本地已合并，但验证未通过”，保留分支与工作区，安排排查；不推送、不发布、不清理，不声称交付完成，也不擅自 reset 掩盖失败。

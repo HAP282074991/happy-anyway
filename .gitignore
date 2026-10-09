@@ -9,3 +9,15 @@ Thumbs.db
 happyAnyway-wechat/project.private.config.json
 happyAnyway-wechat/miniprogram/**/*.js
 happyAnyway-wechat/miniprogram/**/*.js.map
+happyAnyway-app/.expo/
+happyAnyway-app/dist/
+happyAnyway-app/build/
+happyAnyway-app/android/.gradle/
+happyAnyway-app/android/app/build/
+happyAnyway-app/android/build/
+happyAnyway-app/ios/Pods/
+happyAnyway-app/coverage/
+*.jks
+*.keystore
+*.p12
+*.mobileprovision

@@ -1,7 +1,11 @@
 # happyAnyway 后端架构
 
+维护岗位：后端开发 Agent。最近核对：2026-10-08，当前主工作区。维护遵循[路书维护规则](../docs/rules/project-roadmap.md)。
+
+当前源码入口为 src/main/java/com/example/happyanyway/Application.java，已存在 config/、security/；下方业务分层为目录规范，尚未创建业务模块。配置位于 src/main/resources/，测试位于 src/test/java/；运行与验证命令见[工程说明](README.md)。新增业务按下方层级落位，配置和权限修改分别落在 config/、security/ 并补充测试。
+
 ## 系统边界
-Spring Boot 模块化单体为独立的微信、App 和网页客户端提供统一 API，MySQL 为主数据库。当前不引入微服务、Redis 或消息队列；不共享前端实现。
+本工程负责用户端 API，管理端 API 由 happyAnyway-admin-api 独立实现与部署。两个后端共用同一个 MySQL 数据库，但使用不同运行账号，按表及操作类型授予实际所需权限；管理后端不直接修改用户数据。具体表归属和跨端读取需求待业务确认，不因共库授予全库权限。当前不预建共享业务模块、Redis 或消息队列。
 本文规定目录职责和依赖方向，实现方式见[开发规则](docs/rules/development.md)。旧项目的接口与数据库专项规则本次未迁移，接口和数据细节以本项目已确认方案为准。
 
 ## 目录与职责
@@ -51,3 +55,50 @@ Entity 与 DTO 不相互嵌套暴露存储模型；两者转换在 Service 或�
 ## 执行状态
 
 本次迁移目录与依赖规范，未迁移旧项目的 ArchUnit 架构测试或自动检查器。当前通过开发自检和独立审查核对这些约束，不沿用旧项目的测试数量或通过结论。目录按实际功能需要创建，不因结构示意预建业务模块。
+
+## 当前目录结构
+
+核对日期：2026-10-08；以下为当前主工作区实际文件，排除 Git 元数据、依赖及构建缓存。隔离工作区尚未合并的文件不列入；其他章节中的规划分层不代表已经存在。
+
+```text
+happyAnyway-api/
+├── agent.md  # 本岗位职责、权限和接单要求
+├── ARCHITECTURE.md  # 本项目路书、目录树及文件用途
+├── docs/
+│   ├── development/
+│   │   └── README.md  # 本工程页面或功能开发文档索引
+│   └── rules/
+│       └── development.md  # 本工程编码、自检和开发文档要求
+├── pom.xml  # Maven 依赖、Java 版本及构建配置
+├── README.md  # 本工程状态、运行及使用说明
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── example/
+    │   │           └── happyanyway/
+    │   │               ├── Application.java  # Spring Boot 应用启动入口
+    │   │               ├── config/
+    │   │               │   ├── OpenApiConfiguration.java  # 配置 API 文档的基本信息
+    │   │               │   └── ProfileGuard.java  # 启动时拒绝 local 与 mysql 模式同时启用
+    │   │               └── security/
+    │   │                   └── SecurityConfiguration.java  # 配置接口访问权限及认证失败处理
+    │   └── resources/
+    │       ├── application-local.yml  # 无数据库本机开发及 API 文档配置
+    │       ├── application-mysql.yml  # MySQL 开发模式的本机监听配置
+    │       ├── application.yml  # 公共服务、数据库、健康检查与 MyBatis 配置
+    │       ├── db/
+    │       │   └── migration/
+    │       │       └── .gitkeep  # 保留尚无实现文件的目录
+    │       ├── mapper/
+    │       │   └── .gitkeep  # 保留尚无实现文件的目录
+    │       └── META-INF/
+    │           └── spring.factories  # 注册启动时的运行模式检查器
+    └── test/
+        └── java/
+            └── com/
+                └── example/
+                    └── happyanyway/
+                        ├── ApplicationTest.java  # 验证健康检查、文档访问和接口保护
+                        └── ProfileGuardTest.java  # 验证 local 与 mysql 模式冲突保护
+```

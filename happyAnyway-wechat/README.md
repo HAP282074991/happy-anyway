@@ -1,5 +1,6 @@
 # happyAnyway 微信小程序
 
+
 ## 技术栈
 
 原生微信小程序、TypeScript 5.9.3、ESLint 9.39.4；需要 Node.js 22+ 和微信开发者工具。

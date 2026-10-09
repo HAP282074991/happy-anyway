@@ -1,5 +1,7 @@
 # happyAnyway API
 
+- [开发文档](docs/development/README.md)：按功能查看使用对象、相关文件及用途。
+
 ## 技术栈
 
 Java 21、Spring Boot 3.5.16、Maven、Spring Security、MyBatis 3.0.5、MySQL、Flyway、OpenAPI（springdoc 2.8.17）。
